@@ -5,4 +5,4 @@ let cantidadDeseada = prompt("¿Cuántos marcadores quiere comprar?");
 
 let costoTotal = 100*cantidadDeseada;
 
-alert(`La cantidad deseada es ${costoTotal}`)
+alert(`El precio total es ${costoTotal}`)
