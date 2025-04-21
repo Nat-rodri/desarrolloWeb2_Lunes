@@ -6,7 +6,8 @@ let cantidadDeseada = prompt(`¿Cuántos ${nombreProducto}es quiere comprar de $
 let costoTotal = cantidadDeseada*precioUnitario;
 
 if(cantidadDeseada >= 5){
-    costoTotal = costoTotal - (costoTotal *= 0.1)
+    let descuento = costoTotal*0.1
+    costoTotal = costoTotal - descuento
 }
 
 alert(`El precio total es ${costoTotal}`);
