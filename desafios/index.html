@@ -11,8 +11,27 @@
     <h1>this is a heading</h1>
     <p>this is a paragraph</p>
 
-    <script src="/assets/index.js">
+    <!-- <script src="/assets/index.js"> -->
+    <script>
+        let usuario = "Juan"
+        let usuarios = [usuario, "Gustavo", "Natali", "Ezequiel", 123, true]
+        // connsole.log(usuarios)
+        usuarios[0] = "Marta"
+        usuarios.push("Jacob") //agregar un dato
+        usuarios.pop() //elimina el último elemento
+        console.log(usuarios[0])
+        usuarios.indexOf("Gustavo") //en qué indice está "Gustavo", si no está, devuelve -1
+        usuarios.splice(1,1, "Luqueti") //el primer 1 da un si a querer eliminar un elemento en el array
+        
+        for(let i = 0; i < usuarios.length ; i++){
+            console.log(usuarios[i])
+        }
 
+        usuarios.forEach() //Trae al array por elemento
+        //usuarios.length//trae la longitud del array
+        if(true == false){
+            console.clear()
+        }
     </script>
     
 </body>
