@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 05</title>
+</head>
+<body>
+    <script>
+        productos = ["Marcadores", "Lapices", "Borradores"]
+        
+        console.log("Productos: ");
+        for(let i = 0; i < productos.length; i++){
+            console.log(productos[i]);
+        }
+        console.log(" ");
+        productos.pop();
+        if(productos.indexOf("Borradores") == -1){
+            console.log("Se han vendido todos los borradores");
+            console.log(" ");
+        console.log("Productos disponibles: ");
+        for(let i = 0; i < productos.length; i++){
+            console.log(productos[i]);
+        }
+        }
+        
+    </script>
+    
+</body>
+</html>
